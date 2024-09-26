@@ -1,0 +1,28 @@
+.numbers{
+    display:flex;
+    justify-content: center;
+    background-color: aqua;
+    gap: 4px;
+    flex-wrap:wrap;
+    width: 159px;
+}
+
+.buttons{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.number{
+    min-width: 50px;
+    aspect-ratio: 1/1;
+}
+
+.operations{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
